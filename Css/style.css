@@ -1,19 +1,71 @@
-h2{
+header{
+    background-color: grey;
+    border-radius: 10px;
+    margin:10px;
+}
+.h21{
+    font-family:Cursive;
     color:#ca5a5a;
     background-color: rgb(229, 194, 190);
-    margin-left:20px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
+    margin:10px;
+    margin-right:1730px;
+}
+.h22{
+    font-family:Cursive;
+    color:#ca5a5a;
+    background-color: rgb(229, 194, 190);
+    padding: 15px;
+    border-radius: 10px;
+    margin:10px;
+    margin-right:1540px;
 }
 p{
+    font-family:Cursive;
+    border-radius: 10px;
     margin-left: 40px ;
+    margin-right:40px;
     color:teal;
     background-color:rgb(147, 218, 210);
-    padding: 5px;
+    padding: 7.5px;
 }
 h1{
-    border-radius: 10px;
-    background-color: grey;
+    font-family:Cursive;
+    font-weight: bold;
+    font-size:larger;
     color: rgb(255, 255, 255);
-    padding: 20px;
-}
+    padding: 30px;
+    margin:20px;
+ }
+ ul{
+     list-style-type:square;
+     padding:10px;
+     margin-left:20px;
+ }
+ ol{
+     list-style-type:upper-roman;
+     border-bottom-right-radius: 90px;
+     background-color:rgb(147, 218, 210); 
+     margin-left:70px;
+     margin-right:1660px;
+     padding-left:40px;
+     padding-top:5px;
+     padding-bottom:5px;
+ }
+ ol li{
+    font-family:Cursive;
+     color: teal;
+     margin:10px;
+ }
+ footer{
+    background-color: grey;
+    border-radius: 10px;
+    margin-top:242px;
+    padding:8px
+    
+ }
+ footer h4{
+    list-style-type:upper-roman;
+
+ }
