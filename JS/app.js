@@ -50,6 +50,7 @@ switch (MyHobby2) {
         alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question.')
 }
 }
+function MyHobby3(){
 let MyHobby3 = prompt('Am I into Sport exercises? \(y/n\)').toLowerCase()
 if (MyHobby3 == 'y' || MyHobby3 == 'yes') {
     alert('Wow you guessed it right I am into Sport exercises.')
@@ -58,6 +59,7 @@ if (MyHobby3 == 'y' || MyHobby3 == 'yes') {
     alert('You are wrong I\'m actually into Sport exercises it\'s okay.')
 } else {
     alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever.')
+}
 }
 
 
@@ -99,6 +101,7 @@ for(let i=1;i<=5;i++){
 age();
 MyHobby1 ();
 MyHobby2 ();
+MyHobby3 ();
 
 alert('I have visited Turky ,London ,Dubai ,Rome ,Tokyo and Mexico')
 alert('Oh we came to the end of the guessing journey ' + UserName)
