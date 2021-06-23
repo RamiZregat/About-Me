@@ -34,7 +34,7 @@ if (MyHobby1 == 'y' || MyHobby1 == 'yes') {
     alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question')
 }
 }
-
+function MyHobby2(){
 let MyHobby2 = prompt('Am I into programming? \(y/n\)').toLowerCase()
 switch (MyHobby2) {
     case MyHobby2 = 'y':
@@ -48,6 +48,7 @@ switch (MyHobby2) {
         break;
     default:
         alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question.')
+}
 }
 let MyHobby3 = prompt('Am I into Sport exercises? \(y/n\)').toLowerCase()
 if (MyHobby3 == 'y' || MyHobby3 == 'yes') {
@@ -97,6 +98,7 @@ for(let i=1;i<=5;i++){
 
 age();
 MyHobby1 ();
+MyHobby2 ();
 
 alert('I have visited Turky ,London ,Dubai ,Rome ,Tokyo and Mexico')
 alert('Oh we came to the end of the guessing journey ' + UserName)
