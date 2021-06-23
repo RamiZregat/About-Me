@@ -58,7 +58,7 @@ if (MyHobby3 == 'y' || MyHobby3 == 'yes') {
 
 let MyBornDate=Number(prompt('When was i born?','Hint: you have only 4 tries, its in 199#'))
 
-for(let i=1;i<=4;i++){
+for(let i=1;i<=3;i++){
     if(MyBornDate>1997){
         alert(MyBornDate +' is too high try again, you have '+ (4-i) +' tries remaining')
         MyBornDate=Number(prompt('When was i born?','Hint: you have only'+ (4-i) +'tries, its in 199#'))
@@ -80,13 +80,13 @@ let UserInputVistedCities=prompt('which cities did i vist?','type here which cit
 
 let MyVistedCities=['turky','london','dubai','rome','tokyo','mexico']
 
-for(let i=1;i<=6;i++){
+for(let i=1;i<=5;i++){
     if(UserInputVistedCities==MyVistedCities[0] || UserInputVistedCities==MyVistedCities[1] || UserInputVistedCities==MyVistedCities[2] || UserInputVistedCities==MyVistedCities[3] || UserInputVistedCities==MyVistedCities[4] || UserInputVistedCities==MyVistedCities[5] ){
             alert('Wow you guessed it right i have visited '+UserInputVistedCities)
             score++
             break;
     }else if(UserInputVistedCities!=MyVistedCities){
-        alert('No i didn\'t visit '+UserInputVistedCities+' yet, you have '+(6-i)+' tries remaining')
+        alert('No i didn\'t visit this city yet, you have '+(6-i)+' tries remaining')
         UserInputVistedCities=prompt('which cities did i vist?','type here which city u think i have visited, you have '+(6-i)+' tries remaining').toLowerCase()
     }
 }
