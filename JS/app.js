@@ -82,7 +82,7 @@ for(let i=1;i<=3;i++){
     }
 }
 }
-
+function UserInputVistedCities(){
 let UserInputVistedCities=prompt('which cities did i vist?','type here which city u think i have visited, you have 6 tries').toLowerCase()
 
 let MyVistedCities=['turky','london','dubai','rome','tokyo','mexico']
@@ -97,6 +97,7 @@ for(let i=1;i<=5;i++){
         UserInputVistedCities=prompt('which cities did i vist?','type here which city u think i have visited, you have '+(6-i)+' tries remaining').toLowerCase()
     }
 }
+}
 
 age();
 MyHobby1 ();
@@ -104,6 +105,7 @@ MyHobby2 ();
 MyHobby3 ();
 MyBornDate();
 alert('i was born in 1997');
+UserInputVistedCities();
 
 alert('I have visited Turky ,London ,Dubai ,Rome ,Tokyo and Mexico')
 alert('Oh we came to the end of the guessing journey ' + UserName)
