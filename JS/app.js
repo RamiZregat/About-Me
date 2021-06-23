@@ -62,7 +62,7 @@ if (MyHobby3 == 'y' || MyHobby3 == 'yes') {
 }
 }
 
-
+function MyBornDate(){
 let MyBornDate=Number(prompt('When was i born?','Hint: you have only 4 tries, its in 199#'))
 
 for(let i=1;i<=3;i++){
@@ -81,7 +81,7 @@ for(let i=1;i<=3;i++){
         MyBornDate=Number(prompt('When was i born?','Hint: you have only'+ (4-i) +'tries, its in 199#'))
     }
 }
-alert('i was born in 1997')
+}
 
 let UserInputVistedCities=prompt('which cities did i vist?','type here which city u think i have visited, you have 6 tries').toLowerCase()
 
@@ -102,6 +102,8 @@ age();
 MyHobby1 ();
 MyHobby2 ();
 MyHobby3 ();
+MyBornDate();
+alert('i was born in 1997');
 
 alert('I have visited Turky ,London ,Dubai ,Rome ,Tokyo and Mexico')
 alert('Oh we came to the end of the guessing journey ' + UserName)
