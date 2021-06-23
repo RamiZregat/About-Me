@@ -23,6 +23,7 @@ switch (MyAge) {
         alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question')
 }
 }
+function MyHobby1() {
 let MyHobby1 = prompt('Am I a gamer? \(y/n\)').toLowerCase()
 if (MyHobby1 == 'y' || MyHobby1 == 'yes') {
     alert('Wow you guessed it right I am a gamer')
@@ -31,6 +32,7 @@ if (MyHobby1 == 'y' || MyHobby1 == 'yes') {
     alert('You are wrong I\'m actually a gamer it\'s okay lets move on to another question')
 } else {
     alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question')
+}
 }
 
 let MyHobby2 = prompt('Am I into programming? \(y/n\)').toLowerCase()
@@ -94,6 +96,7 @@ for(let i=1;i<=5;i++){
 }
 
 age();
+MyHobby1 ();
 
 alert('I have visited Turky ,London ,Dubai ,Rome ,Tokyo and Mexico')
 alert('Oh we came to the end of the guessing journey ' + UserName)
