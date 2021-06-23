@@ -23,6 +23,7 @@ switch (MyAge) {
         alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question')
 }
 }
+
 function MyHobby1() {
 let MyHobby1 = prompt('Am I a gamer? \(y/n\)').toLowerCase()
 if (MyHobby1 == 'y' || MyHobby1 == 'yes') {
@@ -34,7 +35,8 @@ if (MyHobby1 == 'y' || MyHobby1 == 'yes') {
     alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question')
 }
 }
-function MyHobby2(){
+
+function MyHobby2 () {
 let MyHobby2 = prompt('Am I into programming? \(y/n\)').toLowerCase()
 switch (MyHobby2) {
     case MyHobby2 = 'y':
@@ -50,7 +52,8 @@ switch (MyHobby2) {
         alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question.')
 }
 }
-function MyHobby3(){
+
+function MyHobby3 () {
 let MyHobby3 = prompt('Am I into Sport exercises? \(y/n\)').toLowerCase()
 if (MyHobby3 == 'y' || MyHobby3 == 'yes') {
     alert('Wow you guessed it right I am into Sport exercises.')
@@ -62,7 +65,7 @@ if (MyHobby3 == 'y' || MyHobby3 == 'yes') {
 }
 }
 
-function MyBornDate(){
+function MyBornDate (){
 let MyBornDate=Number(prompt('When was i born?','Hint: you have only 4 tries, its in 199#'))
 
 for(let i=1;i<=3;i++){
@@ -82,7 +85,9 @@ for(let i=1;i<=3;i++){
     }
 }
 }
-function UserInputVistedCities(){
+
+
+function UserInputVistedCities () {
 let UserInputVistedCities=prompt('which cities did i vist?','type here which city u think i have visited, you have 6 tries').toLowerCase()
 
 let MyVistedCities=['turky','london','dubai','rome','tokyo','mexico']
@@ -98,14 +103,14 @@ for(let i=1;i<=5;i++){
     }
 }
 }
+ age();
+ MyHobby1();
+ MyHobby2();
+ MyHobby3();
+ MyBornDate();
+ alert('i was born in 1997')
+ UserInputVistedCities();
 
-age();
-MyHobby1 ();
-MyHobby2 ();
-MyHobby3 ();
-MyBornDate();
-alert('i was born in 1997');
-UserInputVistedCities();
 
 alert('I have visited Turky ,London ,Dubai ,Rome ,Tokyo and Mexico')
 alert('Oh we came to the end of the guessing journey ' + UserName)
