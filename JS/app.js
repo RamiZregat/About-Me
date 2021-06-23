@@ -5,6 +5,8 @@ let UserName = prompt('Please write your name here so we can know each other bet
 alert('Hello ' + UserName + ' It\'s an honor to meet you')
 alert('I want to play with you a guessing game about my personalization hope you enjoy it')
 
+function age()
+{
 let MyAge = prompt('Am I older than 25 \(y/n\)').toLowerCase()
 switch (MyAge) {
     case MyAge = 'y':
@@ -19,7 +21,7 @@ switch (MyAge) {
         break;
     default:
         alert('Really ' + UserName + '... it was a yes or no question u suppose to answer it with y for yes or n for no okay whatever lets move on to next question')
-
+}
 }
 let MyHobby1 = prompt('Am I a gamer? \(y/n\)').toLowerCase()
 if (MyHobby1 == 'y' || MyHobby1 == 'yes') {
@@ -90,6 +92,9 @@ for(let i=1;i<=5;i++){
         UserInputVistedCities=prompt('which cities did i vist?','type here which city u think i have visited, you have '+(6-i)+' tries remaining').toLowerCase()
     }
 }
+
+age();
+
 alert('I have visited Turky ,London ,Dubai ,Rome ,Tokyo and Mexico')
 alert('Oh we came to the end of the guessing journey ' + UserName)
 alert('congratulations you have answered '+score+'/6 questions')
